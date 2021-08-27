@@ -16,7 +16,6 @@ export default function Card(props) {
             <h3 className="w-full flex-none text-xs text-red-500 font-medium my-2">
               {dateFormatted(props.item.created_at)}
             </h3>
-            {/* <p className="repo">{props.item.description}</p> */}
           </div>
           <div className="flex relative space-x-3 text-sm font-medium">
             <button
